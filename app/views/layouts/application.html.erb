@@ -4,33 +4,39 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Merapi Donation</title>
 	<link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" /> 
+	<link href="/stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body id="home">
-	<div id="header" class="clearfix">
-		<ul id="mainNav">
-			<li>
-				<%= link_to "home", root_path %>
-			</li>
-			
-			<li>
-				<%= link_to "about", root_path %>		
-			</li>
-			
-			<li>
-				<%= link_to "how", root_path %>
-			</li>
-			
-			<li>
-				<%= link_to "blog", root_path %>
-			</li>
-			
-		</ul>
+	<div id="mainContainer" class="clearfix">
+		<div id="header" class="clearfix">
+			<ul id="mainNav">
+				<li>
+					<%= link_to "home", root_path, :class=>"home" %>
+				</li>
+
+				<li>
+					<%= link_to "about", root_path, :class=>"about" %>		
+				</li>
+
+				<li>
+					<%= link_to "how", root_path , :class=>"widget"%>
+				</li>
+
+				<li>
+					<%= link_to "blog", root_path, :class=>"blog" %>
+				</li>
+
+			</ul>
+		</div>
+
+		<div id="content" class="clearfix">
+
+		</div>
 	</div>
 	
-	<div id="content" class="clearfix">
-		
-	</div>
+	
+	
 	
 </body>
 </html>

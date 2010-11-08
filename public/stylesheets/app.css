@@ -1,0 +1,19 @@
+body#home .primaryContent {
+	background:none repeat scroll 0 0 transparent;
+	float:left;
+	left:0;
+	padding:0;
+	position:relative;
+	top:-190px;
+	width:640px;
+}
+html#hAbout {
+	background:url("../images/presentation/main_illustration_06.jpg") repeat-x fixed center top #ECECEC;
+}
+body#about {
+}
+html#hBuild {
+	background:url("../images/presentation/main_illustration_04.jpg") repeat-x fixed center top #ECECEC;
+}
+body#build {
+}
