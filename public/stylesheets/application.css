@@ -192,7 +192,7 @@ ul#mainNav li {
 	display:inline;
 }
 ul#mainNav li a {
-	background-image:url("../images/presentation/nav_background2.png");
+	background-image:url("/images/nav_background2.png");
 	color:#FFFFFF;
 	float:left;
 	font-size:135%;
@@ -225,7 +225,7 @@ ul#mainNav li a.carsonified span {
 	display:none;
 }
 ul#mainNav li a:hover {
-	background-image:url("../images/presentation/nav_background2.png");
+	background-image:url("/images/nav_background2.png");
 	color:#FFFFFF;
 }
 ul#mainNav li a.home:hover, body#home ul#mainNav li a.home {
