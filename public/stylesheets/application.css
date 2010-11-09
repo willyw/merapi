@@ -311,3 +311,14 @@ div#logo-wrapper {
 	top:15px;
 	
 }
+
+div.info{
+	float:left;
+}
+
+div#action {
+	margin-top: 300px; 
+	font-size: 30px;
+	 margin-left: 20px; 
+
+} 
