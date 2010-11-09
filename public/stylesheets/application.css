@@ -318,7 +318,11 @@ div.info{
 
 div#action {
 	margin-top: 300px; 
-	font-size: 30px;
+	font-size: 50px;
 	 margin-left: 20px; 
 
 } 
+
+div#action span{
+
+}
