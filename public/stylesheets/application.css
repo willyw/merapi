@@ -61,7 +61,7 @@ pre, code, kbd, samp, tt {
 img, div, a, h1, li {
 }
 html {
-	background:url("/images/merapi_mainbg.jpg") repeat-x fixed center top #ECECEC;
+	background:url("/images/merapi_mainbg.jpg") repeat-x center top #ECECEC;
 }
 body {
 }
@@ -124,6 +124,7 @@ p.underline {
 #header {
 	width:980px;
 	position: relative;
+	height:200px;
 }
 #content {
 	width:980px;
@@ -307,5 +308,6 @@ div#logo-wrapper {
 	display:block;
 	position:absolute;
 	left:0;
+	top:15px;
 	
 }
