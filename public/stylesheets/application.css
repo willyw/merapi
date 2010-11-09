@@ -301,3 +301,11 @@ a.logoFrame {
 .clearfix {
 	display:block;
 }
+
+
+div#logo-wrapper {
+	display:block;
+	position:absolute;
+	left:0;
+	
+}
