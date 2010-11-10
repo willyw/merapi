@@ -349,10 +349,12 @@ a#click:hover {
 	background: url("/images/click_double.png") -90px 0 no-repeat;
 }
 
-#creator{ width:960px; margin: 0 auto; border:1px solid #e6e6e6; padding: 20px 0; background-color:white;  margin-bottom: 10px; clear:left;}
-#creator { -moz-border-radius: 20px; -webkit-border-radius:20px;}
+#creator{ width:960px; margin: 0 auto; border:1px solid #e6e6e6; padding: 20px 0; background-color:white;   clear:left;}
+#creator { -moz-border-radius: 20px; -webkit-border-radius:20px; padding-left: 20px;}
 #creator a.name { display:block; margin-bottom:10px; text-decoration: none; font-size: 18px;}
-#creator p.profile { margin-bottom : 30px; height:140px;}
+#creator p.profile { float:left; text-align:center; width:300px; padding-bottom:0;}
+#creator p.profile span.role { font-style: italic;}
+#creator p.profile span.name { font-weight: bold; }
 #creator h3 { font-size: 22px; margin-bottom:10px; padding: 10px 0; text-decoration: underline;}
 #creator h3 span.audioteam { background-color: blue;}
 #creator h3 span.videoteam { background-color: red;}
