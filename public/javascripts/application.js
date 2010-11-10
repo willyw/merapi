@@ -51,7 +51,7 @@ $(document).ready(function(){
 	$("div#keychain").click(function(){
 		var options ={
 			'padding' : 0,
-			'href' : 'http://merapiDonation.com/images/pics/keychain_detail.png',
+			'href' : 'http://merapiDonation.com/images/pics/keychainDetail.jpg',
 			'transitionIn' : 'none',
 			'transitionOut' : 'none',
 			'type' : 'image',
