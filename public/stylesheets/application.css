@@ -348,3 +348,19 @@ a#click:hover {
 
 	background: url("/images/click_double.png") -90px 0 no-repeat;
 }
+
+#creator{ width:960px; margin: 0 auto; border:1px solid #e6e6e6; padding: 20px 0; background-color:white;  margin-bottom: 10px; clear:left;}
+#creator { -moz-border-radius: 20px; -webkit-border-radius:20px;}
+#creator a.name { display:block; margin-bottom:10px; text-decoration: none; font-size: 18px;}
+#creator p.profile { margin-bottom : 30px; height:140px;}
+#creator h3 { font-size: 22px; margin-bottom:10px; padding: 10px 0; text-decoration: underline;}
+#creator h3 span.audioteam { background-color: blue;}
+#creator h3 span.videoteam { background-color: red;}
+#creator a.pic-band-wrapper {  display:block; float:right; margin-left:15px;}	
+#creator a.pic-video-wrapper {  display:block; float:left; margin-right:15px;}	
+#creator cite { position: relative; line-height:18px; font-family: Verdana;}
+
+	#audio { text-align:right; width:46.5%; float: left; }
+	#audio p.profile { padding-left:10px; }
+	#video { text-align:left; width:46.5%; float: right ; }
+	#video p.profile { padding-right: 10px;}

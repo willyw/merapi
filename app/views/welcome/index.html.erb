@@ -6,24 +6,10 @@
 					<img src="/images/logo.png" alt="Merapi Donation"/>
 				</a>
 			</div>
-			<ul id="mainNav">
-				<li>
-					<%= link_to "donate", root_path, :class=>"home" %>
-				</li>
-
-				<li>
-					<%= link_to "about", root_path, :class=>"about" %>		
-				</li>
-
-				<li>
-					<%= link_to "how", root_path , :class=>"widget"%>
-				</li>
-
-				<li>
-					<%= link_to "gallery", root_path, :class=>"blog" %>
-				</li>
-				
-			</ul>
+			
+			<%= render :partial => "navigation" %>
+			
+			
 		
 			<a href="#" id="click">
 			</a>

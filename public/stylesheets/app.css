@@ -12,6 +12,21 @@ html#hAbout {
 }
 body#about {
 }
+
+body#about div.info {
+	float:none !important ;
+}
+
+body#about div.info div.info-left{
+	float: left;
+}
+
+body#about div.info div.info-right{
+	float: left;
+	position:relative;
+	top:208px;
+	margin-left: 50px;
+}
 html#hBuild {
 	background:url("../images/presentation/main_illustration_04.jpg") repeat-x fixed center top #ECECEC;
 }

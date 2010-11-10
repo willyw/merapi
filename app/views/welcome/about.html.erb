@@ -1,0 +1,129 @@
+<body id="about">
+	<div id="mainContainer" class="clearfix">
+		<div id="header" class="clearfix">
+			<div id="logo-wrapper">
+				<a href="http://merapidonation.com">
+					<img src="/images/logo.png" alt="Merapi Donation"/>
+				</a>
+			</div>
+			
+			<%= render :partial => "navigation" %>
+			
+	
+		</div>
+		
+		<div id="content" class="clearfix">
+			<div class="info clearfix">
+				<div class="info-left">
+					<a href="http://google.com">
+						<img src="/images/keychain.png" />
+					</a>
+				
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="QXHA5WRXM69M2">
+
+						<input type="hidden" name="on0" value="Donation Amount">
+
+						<input type="image" src="http://www.merapidonation.com/images/donate_button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online.">
+						<img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+					</form>
+				</div> <!-- end of div.info-left -->
+				
+				<div class="info-right">
+					<iframe class="youtube-player" type="text/html" width="550" height="350" src="http://www.youtube.com/embed/WosSJW_IPCA" frameborder="0"></iframe>
+				</div>
+			</div>
+			
+			<div id="creator" class="clearfix">
+				<!-- <div id="audio">
+									<h3>About us</h3>
+									<p class="profile clearfix">
+										<a href="http://www.facebook.com/ticoalu" class="name">Alvarez Ticoalu</a>
+
+
+											<a href="http://www.facebook.com/ticoalu" class="pic-band-wrapper">
+												<img src="/images/alvarez_test1.jpg" />
+											</a>
+											<cite>
+												Alvarez Octorian Jefferson Ticoalu is the guitarist of SPATULA. He is a medicine student, a practicing photographer, and an aspiring musician.
+											</cite>
+
+
+									</p>
+
+									<p class="profile clearfix">
+										<a href="http://www.facebook.com/profile.php?id=1457262649" class="name">Jerry Elyesser </a>
+										<a href="http://www.facebook.com/profile.php?id=1457262649" class="pic-band-wrapper">
+											<img src="/images/jerry.jpg" />
+										</a>
+										<cite>
+											Working as a bank officer in one of the largest state bank does not turn him into a boring person. He is filled with beats that  make any music sound colourful and energetic as himself
+										</cite>
+									</p>
+
+									<p class="profile clearfix">
+										<a href="http://www.facebook.com/jenss.michael" class="name">Jens Purba</a>
+										<a href="http://www.facebook.com/jenss.michael" class="pic-band-wrapper">
+											<img src="/images/jens.jpg" />
+										</a>
+										<cite>
+											Jens Michael Purba, lead singer of SPATULA and DJ at Heartline radio station, has a really unique
+											sound color with an amazing vocal range.
+										</cite>
+									</p>
+
+									<p class="profile clearfix">
+										<a href="http://www.facebook.com/profile.php?id=734564245" class="name">Oliver Zesti</a>
+										<a href="http://www.facebook.com/profile.php?id=734564245" class="pic-band-wrapper">
+											<img src="/images/zesti.jpg" />
+										</a>
+										<cite>
+											Oliver Zesti Manuhutu, legal officer by day and bassist of SPATULA by night, creates an excellent ambient with his bass guitar despite of not having a formal music education.
+										</cite>
+									</p>
+
+
+									<p class="profile clearfix">
+										<a href="http://www.facebook.com/profile.php?id=595272920" class="name">Ryan Novianus</a>
+										<a href="http://www.facebook.com/profile.php?id=595272920" class="pic-band-wrapper">
+											<img src="/images/ryan.jpg" />
+										</a>
+										<cite>
+											 Ryan Novianus is the percussionists of SPATULA. His groove results in bright sound to the music that can makes us dance.
+										</cite>
+									</p>
+
+
+									<p class="profile clearfix">
+										<a href="http://www.facebook.com/joshua.hendinata" class="name">Joshua Hendinata</a>
+										<a href="http://www.facebook.com/joshua.hendinata" class="pic-band-wrapper">
+											<img src="/images/joshua.jpg" />
+										</a>
+										<cite>
+											 Joshua Hendinata is the keyboardist and the synthesist of SPATULA. 
+										</cite>
+									</p>
+
+								</div> -->
+		</div>
+	</div>
+	
+	
+	
+	<% if RAILS_ENV != "development" %>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-6428879-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	<% end %>
+</body>
