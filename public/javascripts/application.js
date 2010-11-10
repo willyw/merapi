@@ -39,7 +39,8 @@ $(document).ready(function(){
 			'transitionIn' : 'none',
 			'transitionOut' : 'none',
 			'type' : 'image',
-			'changeFade' : 0
+			'changeFade' : 0,
+			'autoDimensions' : false 
 		}
 		
 		

@@ -336,6 +336,7 @@ a#click {
 	position:absolute;
 	right:210px;
 	top:160px;
+
 	width:90px;
 	height:110px;
 	background: url("/images/click_double.png") 0 0 no-repeat;
