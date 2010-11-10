@@ -48,6 +48,23 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	$("div#keychain").click(function(){
+		var options ={
+			'padding' : 0,
+			'href' : 'http://merapiDonation.com/images/pics/keychain_detail.png',
+			'transitionIn' : 'none',
+			'transitionOut' : 'none',
+			'type' : 'image',
+			'changeFade' : 0,
+			'autoDimensions' : false 
+		}
+		
+		$.fancybox(options);
+		return false;
+	});
+	
+	
+	
 	
 	/*
 	$("#manual2").click(function(){
