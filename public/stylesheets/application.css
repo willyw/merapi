@@ -6,6 +6,10 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 	margin:0;
 	padding:0;
 }
+
+body {
+	margin: 0 auto;
+}
 table {
 	border-collapse:collapse;
 	border-spacing:0;
@@ -325,4 +329,21 @@ div#action {
 
 div#action span{
 
+}
+
+a#click {
+	display:block;
+	position:absolute;
+	right:210px;
+	top:160px;
+	width:90px;
+	height:110px;
+	background: url("/images/click_double.png") 0 0 no-repeat;
+	outline: 0;
+	border: 0;
+}
+
+a#click:hover {
+
+	background: url("/images/click_double.png") -90px 0 no-repeat;
 }
