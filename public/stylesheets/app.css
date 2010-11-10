@@ -22,16 +22,14 @@ body#about div.info div.info-left{
 }
 
 body#about div.info div.info-right{
-	z-index: -20;
+
 	float: left;
 	position:relative;
 	top:208px;
 	margin-left: 50px;
 }
 
-body#about div.info div.info-right iframe.youtube-player{
-	z-index: -30;
-}
+
 
 html#hBuild {
 	background:url("../images/presentation/main_illustration_04.jpg") repeat-x fixed center top #ECECEC;
