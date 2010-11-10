@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	
 	$("a#click").click(function(){
-		alert("hey, i am clicked");
 		
 		var arrayOfImages = [
 		'http://merapiDonation.com/images/pics/2010_10_28_08_46_08_ternaka2.jpg',
