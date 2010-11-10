@@ -35,12 +35,9 @@ $(document).ready(function(){
 		
 		
 		var options ={
-			'padding' : 0,
-			'transitionIn' : 'none',
-			'transitionOut' : 'none',
-			'type' : 'image',
-			'changeFade' : 0
-		}
+		};
+		
+		
 		$.fancybox(arrayOfImages,options);
 		return false;
 	});
