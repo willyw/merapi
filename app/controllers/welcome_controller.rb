@@ -2,6 +2,6 @@ class WelcomeController < ApplicationController
   def index
   end
   
-  def about
+  def donate
   end
 end
