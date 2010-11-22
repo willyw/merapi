@@ -351,7 +351,7 @@ a#click:hover {
 
 #creator{ width:960px; margin: 0 auto; border:1px solid #e6e6e6; padding: 20px 0; background-color:white;   clear:left;}
 #creator { -moz-border-radius: 20px; -webkit-border-radius:20px; padding-left: 20px;}
-#creator{ background: url("/images/merapiBG.png");}
+#creator{ background: url("/images/merapiBG.png"); min-height: 550px;}
 #creator a.name { display:block; margin-bottom:10px; text-decoration: none; font-size: 18px;}
 #creator div.profile { float:left; text-align:center; width:300px; padding-bottom:0;}
 #creator div.profile span.role { font-style: italic;}
