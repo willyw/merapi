@@ -367,3 +367,7 @@ a#click:hover {
 	#audio div.profile { padding-left:10px; }
 	#video { text-align:left; width:46.5%; float: right ; }
 	#video div.profile { padding-right: 10px;}
+	
+	div#right-donator {float:right !important; width:140px !important; text-align:center !important; background-color:white; !important}
+	div#right-donator a { border: 1px solid white;  display:block; margin-bottom:3px; padding: 1px;}
+	div#right-donator a:hover { border: 1px solid rgb(230,230,230); background-color:rgb(240,240,240);}
