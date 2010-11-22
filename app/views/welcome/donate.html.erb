@@ -1,0 +1,64 @@
+<body id="about">
+	<div id="mainContainer" class="clearfix">
+		<div id="header" class="clearfix">
+			<div id="logo-wrapper">
+				<a href="http://merapidonation.com">
+					<img src="/images/logo.png" alt="Merapi Donation"/>
+				</a>
+			</div>
+			
+			<%= render :partial => "navigation" %>
+			
+	
+		</div>
+		
+		<div id="content" class="clearfix">
+			
+			
+			<div id="creator" class="clearfix">
+				<h2>Channel your donation to one of the followings:</h2>
+				<p class="profile">
+					<a href="http://www.facebook.com/kuma.kinsey">
+						<img src="/images/tori.png" />
+					</a>
+				</p>
+				
+				<p class="profile">
+					<a href="http://www.linkedin.com/in/titobatubara">
+						<img src="/images/pmi.png" />
+					</a>
+				</p>
+				
+				<p class="profile">
+					<a href="http://www.facebook.com/umareta">
+						<img src="/images/kaskus.png" />
+					</a>
+				</p>
+				
+				<p class="profile">
+					<a href="http://www.facebook.com/umareta">
+						<img src="/images/givesg.png" />
+					</a>
+				</p>
+				
+		</div>
+	</div>
+	
+	
+	
+	<% if RAILS_ENV != "development" %>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-6428879-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	<% end %>
+</body>
