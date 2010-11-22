@@ -351,10 +351,11 @@ a#click:hover {
 
 #creator{ width:960px; margin: 0 auto; border:1px solid #e6e6e6; padding: 20px 0; background-color:white;   clear:left;}
 #creator { -moz-border-radius: 20px; -webkit-border-radius:20px; padding-left: 20px;}
+#creator{ background: url("/images/merapiBG.png");}
 #creator a.name { display:block; margin-bottom:10px; text-decoration: none; font-size: 18px;}
-#creator p.profile { float:left; text-align:center; width:300px; padding-bottom:0;}
-#creator p.profile span.role { font-style: italic;}
-#creator p.profile span.name { font-weight: bold; }
+#creator div.profile { float:left; text-align:center; width:300px; padding-bottom:0;}
+#creator div.profile span.role { font-style: italic;}
+#creator div.profile span.name { font-weight: bold; }
 #creator h3 { font-size: 22px; margin-bottom:10px; padding: 10px 0; text-decoration: underline;}
 #creator h3 span.audioteam { background-color: blue;}
 #creator h3 span.videoteam { background-color: red;}
@@ -363,6 +364,6 @@ a#click:hover {
 #creator cite { position: relative; line-height:18px; font-family: Verdana;}
 
 	#audio { text-align:right; width:46.5%; float: left; }
-	#audio p.profile { padding-left:10px; }
+	#audio div.profile { padding-left:10px; }
 	#video { text-align:left; width:46.5%; float: right ; }
-	#video p.profile { padding-right: 10px;}
+	#video div.profile { padding-right: 10px;}
